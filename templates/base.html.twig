@@ -2,15 +2,18 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}TEST{% endblock %}</title>
         {% block stylesheets %}
         {% endblock %}
 
         {% block javascripts %}
-{#            {% block importmap %}{{ importmap('app') }}{% endblock %}#}
         {% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {% block body %}
+
+            <h2>TEST</h2>
+
+        {% endblock %}
     </body>
 </html>
